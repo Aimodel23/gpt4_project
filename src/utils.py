@@ -1,9 +1,19 @@
-def helper_function():
-        return "This is a helper function!"
-        # utils.py
+# src/utility.py
 
-        def helper_function():
+import re
+
+def clean_text(text):
+    """
+        Cleans the input text by removing unwanted characters and formatting.
             """
-                This function provides some helper functionality that can be used across the project.
-                    """
-                        return "This is a helper function!"
+                text = text.lower()
+                    text = re.sub(r'\s+', ' ', text)  # Remove extra spaces
+                        text = re.sub(r'[^a-zA-Z0-9\s]', '', text)  # Remove special characters
+                            return text
+
+
+
+
+
+
+

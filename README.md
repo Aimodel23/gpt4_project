@@ -60,3 +60,21 @@ Follow these steps to set up the project:
                                           ## License
 
                                           This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+                                          # GPT-4 Project
+
+                                          This project aims to build a custom GPT-4 model from scratch using Python and various libraries. The project is structured into different modules to ensure scalability and maintainability.
+
+                                          ## Setup
+
+                                          1. Clone the repository.
+                                          2. Create a virtual environment.
+                                          3. Install dependencies using `pip install -r requirements.txt`.
+                                          4. Run the main script using `python src/main.py`.
+
+                                          ## Testing
+
+                                          Run tests using `pytest` to ensure all modules function correctly.
+
+                                          ## License
+
+                                          MIT License
